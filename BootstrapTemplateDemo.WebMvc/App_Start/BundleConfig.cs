@@ -24,7 +24,16 @@ namespace BootstrapTemplateDemo.WebMvc
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/owl.carousel.css",
+                      "~/Content/owl.carousel.transitions.css",
+                      "~/Content/animate.min.css",
+                      "~/Content/venobox.css",
+                      "~/Content/site.css",
+                      "~/Content/nivo-slider.css",
+                      "~/Content/nivo-slider-theme.css",
+                      "~/Content/styles.css",
+                      "~/Content/responsive.css"
+                      ));
         }
     }
 }
